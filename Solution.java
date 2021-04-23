@@ -23,13 +23,13 @@ public class Solution {
   */
   public int solve(int[][] matrix) {
     this.matrix = matrix;
-    return multiSource_bfs_findfarthestPointFromWater();
+    return multiSource_bfs_findFarthestPointFromWater();
   }
   /*
   Multi-Source Breadth First Search: starting from the coastal water points finds the farthest land.
   @return The farthest land from water.
   */
-  public int multiSource_bfs_findfarthestPointFromWater() {
+  public int multiSource_bfs_findFarthestPointFromWater() {
 
     LinkedList<Point> queue = findCoastalWaterPoints();
 
